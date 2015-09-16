@@ -24,7 +24,13 @@ Cygwin
 Standard Unix tools can be installed on Windows workstations through
 `Cygwin <https://cygwin.com/>`_.
 
-Installed packages:
+Installation:
+
+#. Download https://github.com/pmuller/dotfiles/blob/master/cygwin/setup.bat
+   and https://cygwin.com/setup-x86_64.exe
+#. Run ``setup.bat``
+
+List installed packages:
 
 .. code-block:: console
 
@@ -54,8 +60,8 @@ We install it using setuptools' easy_install:
 
 .. code-block:: console
 
-    $ easy_install-2.7 pip
     $ easy_install-3.4 pip
+    $ easy_install-2.7 pip
 
 .. note::
 
@@ -80,7 +86,12 @@ Installation:
 
 .. code-block:: console
 
-    $ pip install virtualenv
+    $ pip2 install virtualenv
+
+.. note::
+
+    virtualenv is integrated with Python >= 3.3.
+    Use the ``pyvenv-3.4`` command.
 
 
 Sphinx
@@ -93,7 +104,8 @@ Installation:
 
 .. code-block:: console
 
-    $ pip install sphinx rstcheck
+    $ pip3 install sphinx rstcheck
+    $ pip2 install sphinx rstcheck
 
 .. note::
 
