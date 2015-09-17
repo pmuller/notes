@@ -6,7 +6,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   dev-env
+   python
+   cygwin
    git
    vim
    tmux
