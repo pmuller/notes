@@ -11,3 +11,4 @@ Contents:
    vim
    tmux
    virtualbox
+   vagrant
