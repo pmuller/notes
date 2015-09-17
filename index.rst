@@ -10,3 +10,4 @@ Contents:
    git
    vim
    tmux
+   virtualbox
