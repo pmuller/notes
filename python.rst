@@ -59,3 +59,23 @@ Installation:
 
     rstcheck is a static checker for reStructuredText documents,
     used by vim's syntastic plugin.
+
+
+Code quality
+------------
+
+* pep8: code style checking
+* pylint: static checker
+
+Installation:
+
+.. code-block:: console
+
+    $ pip3 install pep8 pylint
+    $ pip2 install pep8 pylint
+
+
+Enhanced shell
+--------------
+
+* ipython
