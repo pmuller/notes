@@ -11,6 +11,25 @@ Installation
 #. Run ``setup.bat``
 
 
+Search for a package
+--------------------
+
+.. code-block:: console
+
+    $ cygcheck -p NAME
+
+
+Install a package
+-----------------
+
+.. code-block:: console
+
+    $ setup.exe --quiet-mode --no-shortcuts --no-desktop --no-startmenu \
+        --root "$(cygpath -m /)" \
+        --local-package-dir "$(cygpath -w /packages)" \
+        --site $CYGWIN_MIRROR --packages NAME[,OTHERS..]
+
+
 List installed packages
 -----------------------
 
