@@ -13,3 +13,4 @@ Contents:
    tmux
    virtualbox
    vagrant
+   ansible
