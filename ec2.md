@@ -9,3 +9,13 @@ aws ec2 describe-images \
    --query "Images | sort_by(@, &CreationDate) | [-1].[ImageId]" \
    --output text
 ```
+
+## Latest Amazon Linux 2023 for ARM64
+
+```bash
+aws ec2 describe-images \
+   --owners amazon \
+   --filters "Name=name,Values=al2023-ami-*-kernel-*-arm64" "Name=state,Values=available" \
+   --query "Images | sort_by(@, &CreationDate) | [-1].[ImageId]" \
+   --output text
+```
